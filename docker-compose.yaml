@@ -1,0 +1,10 @@
+version: '3'
+services:
+  sprigbootdemo1:
+    image: sprigbootdemo:latest
+    ports:
+      - 9191:8080
+  sprigbootdemo2:
+    image: sprigbootdemo:latest
+    ports:
+      - 9292:8080
